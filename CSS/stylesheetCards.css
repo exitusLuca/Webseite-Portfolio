@@ -7,7 +7,8 @@ body{
     margin: 100px auto;
     box-shadow: 0px 0px 60px 15px #0036cc;
     max-width: 360px;
-    display: block;
+    display: flex;
+    justify-content: space-around;
     text-align: center;
     border: 3px solid white !important;
 }
