@@ -1,0 +1,13 @@
+.centerBlock {
+    display: table;
+    margin: auto;
+}
+
+form {
+    border: solid black;
+    background-color: #bbe1fa;
+    padding-block-end: 50px;
+    padding-block-start: 100px;
+    padding-inline-start: 250px;
+    padding-inline-end: 150px;
+}

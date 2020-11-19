@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/stylesheetIndex.css">
+    <link rel="stylesheet" href="../CSS/stylesheetFormular.css">
+    <link rel="shortcut icon" href="../Bilder/faviconLS.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt Formular</title>
+</head>
+
+<body  style="background-color: #0f161a !important; height: 100% !important;">
+    <div class="headingBoxOnTheLeft" style="font-family: montserrat-medium;">
+        <img class="headerImg" src="../Bilder/headerBild.jpg" alt="Bitcodebild- nullen und einsen"/>
+        <span>Luca Schäfer Softwareentwickler</span>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-darkBlue p-3" style="font-family: montserrat-medium;">
+        <a class="navbar-brand disabled" style="color: white">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent ">
+            <ul class="navbar-nav">
+                <li class="nav-item navbar-center">
+                    <a class="nav-link" href="../index.html">Startseite <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projekte.html">Projekte<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="programmierkenntnisse.html">Programmierkenntnisse<span
+                            class="sr-only"></span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="kontakt.html">Kontakt <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutme.html">About me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <form action="https://form.taxi/luca.schaefer98@gmx.de" target="_blank" method="POST">
+            <legend class="col-sm-10">Kontaktformular</legend>
+            <div class="form-group col-sm-10">
+                <label>Ihre Angaben: </label>
+                <div class="row ">
+                    <div class="col">
+                        <input type="text" name="Vorname" class="form-control" placeholder="Vorname">
+                    </div>
+                    <div class="col">
+                        <input type="text" name="Nachname" class="form-control" placeholder="Nachname">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group col-sm-10">
+                <input type="email" name="EmailAbsender" required class="form-control" placeholder="Email"></input>
+                <small id="emailHelp" class="form-text text-muted">Ihre Email wird benötigt, um Ihnen eine
+                    Antwort zu
+                    senden. Die Email wird vertraulich behandelt und nicht weitergegeben.</small>
+            </div>
+            <div class="form-group col-sm-10">
+                <label for="exampleInputTextarea">Nachricht</label>
+                <textarea type="textarea" name="Nachricht" cols="5" class="form-control" required
+                    id="exampleInputTextarea" placeholder="Ihr Anliegen können Sie hier schreiben..."></textarea>
+            </div>
+            <div class="form-group col-sm-3 offset-sm-4">
+                <button name="submit" type="submit" class="btn btn-primary mt-3">Senden</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

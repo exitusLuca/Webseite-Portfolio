@@ -1,0 +1,175 @@
+
+.headerImg {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+    opacity: 0.8;
+}
+
+
+.headingBoxOnTheLeft span {
+    position: absolute;
+    left: 0;
+    top: 3.5%;
+    width: 13%;
+    left: 7%;
+    color: #fff;
+    text-align: center;
+    line-height: 4em;
+    background: #404040;
+    background-color: rgba(40, 40, 40, 0.9);
+    font-size: large;
+
+}
+
+/*Navbar Hintergrund ändern */
+.bg-darkBlue{
+    background-color: #2d6187;
+}
+
+.bg-lightBlue{
+    background-color: #28abb9;
+}
+
+.bg-lightPurple{
+    background-color: #915cf7;
+}
+
+
+.videoCentered {
+    width: 1075px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    object-fit: fill;
+}
+
+
+.projectHeading{
+    color: white; 
+    text-align: center; 
+    font-size: 2.5em; 
+    font-weight: bold; 
+    margin-top: 20px; 
+    margin-bottom: 0;
+    font-family: "norwester";
+}
+
+
+/*Vorlage für die Anderen Projekt Container*/
+
+.middleProjectDiv{
+    float:left; 
+    color: white; 
+    text-align: left; 
+    margin-top: 116px; 
+    width: 500px;
+    height: 250px; 
+    padding-left: 50px;
+    word-wrap: break-word;
+    font-size: large;
+}
+
+
+/* Beginn Container mit Projekten Top 3 Mitte der Webseite*/
+
+.firstImgProjectDiv{
+    margin-top: 35px; 
+    height: 500px;
+    width: 100%; 
+    background-color: #28abb9;
+}
+
+.firstImgProjects{
+    float: right;
+    width: 400px;
+    height: 250px;
+    margin-top: 125px;
+    margin-right: 50px;
+    border: 3px solid white;
+}
+
+.firstImgProjects:hover{
+    filter: opacity(50%);
+    transition: 0.5s;
+}
+
+
+.middleProjectDiv p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.middleProjectDiv h4{
+    font-family: "montserrat-medium";
+}
+
+.middleImgProjectDiv{
+    background-color: #2d6187; 
+    height: 500px; 
+    width: 100%;
+}
+
+.middleImgProjects{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-top: 105px;
+    margin-left: 100px;
+    text-align: center;
+    border-radius: 150px;
+    border: 3px solid grey;
+
+}
+
+.middleImgProjects:hover{
+    filter: opacity(50%);
+    transition: 0.5s;
+}
+
+.lastImgProjects{
+    float: right;
+    width: 400px;
+    height: 250px;
+    margin-top: 125px;
+    margin-right: 50px;
+    border: 3px solid white;
+}
+
+
+.lastImgProjects:hover{
+    filter: opacity(50%);
+    transition: 0.5s;
+}
+
+
+
+#footer{
+    padding: 15px;
+    background-color: #915cf7;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav.navbar-center {
+        position: absolute;
+    }
+}
+
+
+
+/* Verschiedene Schriftarten für die Webseite*/
+
+@font-face{
+    font-family: 'montserrat-medium';
+    src: url("../schriftarten/Montserrat-Medium.ttf")
+}
+
+@font-face{
+    font-family: 'norwester';
+    src: url("../schriftarten/norwester.otf")
+}
+
+

@@ -1,0 +1,42 @@
+
+body{
+    background-color: black !important;
+}
+
+.card {
+    margin: 100px auto;
+    box-shadow: 0px 0px 60px 15px #0036cc;
+    max-width: 360px;
+    display: block;
+    text-align: center;
+    border: 3px solid white !important;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+.kontaktLinks {
+    text-decoration: none;
+    font-size: 22px;
+    padding: 5px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color: rgb(64, 64, 73);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 22px;
+}
+
+
+button:hover,
+a:hover {
+    opacity: 0.7;
+}
